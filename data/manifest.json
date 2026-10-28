@@ -1,0 +1,51 @@
+{
+  "bbox": [
+    120.6143053902,
+    30.77,
+    122.3330946098,
+    31.6885676823
+  ],
+  "center": [
+    121.4737,
+    31.2304
+  ],
+  "osmTimestamp": "2026-10-27T21:23:59Z",
+  "rawBytes": 371036484,
+  "geometryBytes": 16083397,
+  "geometryUncompressedBytes": 95523511,
+  "tileBytes": 8794827,
+  "codeBytes": 1084778,
+  "runtimeBytes": 45151425,
+  "roadCount": 285159,
+  "waterwayCount": 14939,
+  "groups": {
+    "tertiary": 33075,
+    "primary": 24472,
+    "trunk": 8965,
+    "residential": 56018,
+    "secondary": 25172,
+    "service": 54757,
+    "motorway": 12259,
+    "path": 38545,
+    "waterway": 14939,
+    "unclassified": 25164,
+    "track": 6732
+  },
+  "coordinateCount": 1828396,
+  "source": "Geofabrik Shanghai GeoPackage + Jiangsu / Zhejiang OSM PBF",
+  "waterSource": "Detailed OSM inland polygons 2026-10-27; OpenFreeMap 2026-10-25 ocean/coast baseline",
+  "license": "ODbL-1.0",
+  "downloadTransferBytes": 371036484,
+  "surfaceBytes": 19047263,
+  "surfaceCounts": {
+    "buildings": 224700,
+    "landuse": 38679,
+    "water": 8708
+  },
+  "sourceArchiveBytes": 220108426,
+  "historicalOverpassBytes": 149553811,
+  "aviationBytes": 141160,
+  "aviationCount": 1456,
+  "aviationTimestamp": "2026-05-31T22:37:44Z",
+  "aviationDownloadBytes": 1374247
+}

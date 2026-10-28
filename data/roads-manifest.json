@@ -1,0 +1,94 @@
+{
+  "bbox": [
+    120.6143053902,
+    30.77,
+    122.3330946098,
+    31.6885676823
+  ],
+  "createdAt": "2026-10-28T11:23:16.188324+00:00",
+  "path": "data/roads.geojson.gz",
+  "featureCount": 300098,
+  "roadCount": 285159,
+  "waterwayCount": 14939,
+  "groups": {
+    "tertiary": 33075,
+    "primary": 24472,
+    "trunk": 8965,
+    "residential": 56018,
+    "secondary": 25172,
+    "service": 54757,
+    "motorway": 12259,
+    "path": 38545,
+    "waterway": 14939,
+    "unclassified": 25164,
+    "track": 6732
+  },
+  "coordinateCount": 1828396,
+  "geometryBytes": 16083397,
+  "geometryUncompressedBytes": 95523511,
+  "sources": [
+    {
+      "name": "Shanghai GeoPackage",
+      "path": "data/raw/shanghai.gpkg",
+      "url": "https://download.geofabrik.de/asia/china/shanghai-latest-free.gpkg.zip",
+      "osmTimestamp": "2026-10-27T21:23:59Z",
+      "selectedRoadCount": 208001,
+      "selectedWaterwayCount": 10585
+    },
+    {
+      "name": "Jiangsu PBF",
+      "path": "data/raw/jiangsu-latest.osm.pbf",
+      "url": "https://download.geofabrik.de/asia/china/jiangsu-latest.osm.pbf",
+      "osmTimestamp": "2026-10-27T21:23:59Z",
+      "sourceBytes": 80077274,
+      "selectedGroups": {
+        "motorway": 3054,
+        "secondary": 6865,
+        "service": 10575,
+        "tertiary": 10089,
+        "trunk": 3400,
+        "waterway": 3508,
+        "residential": 9291,
+        "unclassified": 5549,
+        "path": 8064,
+        "primary": 7810,
+        "track": 804
+      },
+      "replacedDuplicateIDs": 1351
+    },
+    {
+      "name": "Zhejiang PBF",
+      "path": "data/raw/zhejiang-latest.osm.pbf",
+      "url": "https://download.geofabrik.de/asia/china/zhejiang-latest.osm.pbf",
+      "osmTimestamp": "2026-10-27T21:23:59Z",
+      "sourceBytes": 91099737,
+      "selectedGroups": {
+        "motorway": 601,
+        "tertiary": 2031,
+        "residential": 3228,
+        "primary": 1230,
+        "secondary": 1144,
+        "unclassified": 1187,
+        "waterway": 1252,
+        "trunk": 360,
+        "service": 3261,
+        "path": 838,
+        "track": 388
+      },
+      "replacedDuplicateIDs": 1666
+    }
+  ],
+  "license": "ODbL-1.0",
+  "validation": {
+    "duplicateIDs": 0,
+    "allCoordinatesInsideBBox": true,
+    "coverageCoordinateCounts": {
+      "southOf30.9": 160559,
+      "westOf121.1": 640860
+    }
+  },
+  "limitations": [
+    "OSM completeness varies by location; extract boundaries follow provincial coverage.",
+    "Geofabrik Shanghai road classes are normalized; adjoining PBFs retain original highway values."
+  ]
+}

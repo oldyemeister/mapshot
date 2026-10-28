@@ -1,0 +1,21 @@
+{
+  "migration": {
+    "version": 3,
+    "color": "#abcdef",
+    "aviation": [
+      "runway",
+      "taxiway",
+      "apron"
+    ],
+    "rejected": true
+  },
+  "hongqiao": {
+    "runway": 4,
+    "taxiway": 314,
+    "apron": 5
+  },
+  "exportBytes": 2124772,
+  "pudong": 13,
+  "errors": [],
+  "remote": []
+}

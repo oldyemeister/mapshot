@@ -1,0 +1,348 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-28T11:39:20.396766+00:00",
+  "title": "Design System: 上海路网调色台",
+  "extensions": {
+    "colorMeta": {
+      "accent": {
+        "role": "primary",
+        "displayName": "Accent",
+        "tonalRamp": [
+          "oklch(15% 0.08836 242.38)",
+          "oklch(26% 0.08836 242.38)",
+          "oklch(38% 0.08836 242.38)",
+          "oklch(49% 0.08836 242.38)",
+          "oklch(61% 0.08836 242.38)",
+          "oklch(72% 0.08836 242.38)",
+          "oklch(84% 0.08836 242.38)",
+          "oklch(95% 0.08836 242.38)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "tonalRamp": [
+          "oklch(15% 0.04478 248.19)",
+          "oklch(26% 0.04478 248.19)",
+          "oklch(38% 0.04478 248.19)",
+          "oklch(49% 0.04478 248.19)",
+          "oklch(61% 0.04478 248.19)",
+          "oklch(72% 0.04478 248.19)",
+          "oklch(84% 0.04478 248.19)",
+          "oklch(95% 0.04478 248.19)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted",
+        "tonalRamp": [
+          "oklch(15% 0.03829 244.52)",
+          "oklch(26% 0.03829 244.52)",
+          "oklch(38% 0.03829 244.52)",
+          "oklch(49% 0.03829 244.52)",
+          "oklch(61% 0.03829 244.52)",
+          "oklch(72% 0.03829 244.52)",
+          "oklch(84% 0.03829 244.52)",
+          "oklch(95% 0.03829 244.52)"
+        ]
+      },
+      "border": {
+        "role": "neutral",
+        "displayName": "Border",
+        "tonalRamp": [
+          "oklch(15% 0.01114 243.66)",
+          "oklch(26% 0.01114 243.66)",
+          "oklch(38% 0.01114 243.66)",
+          "oklch(49% 0.01114 243.66)",
+          "oklch(61% 0.01114 243.66)",
+          "oklch(72% 0.01114 243.66)",
+          "oklch(84% 0.01114 243.66)",
+          "oklch(95% 0.01114 243.66)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Surface",
+        "tonalRamp": [
+          "oklch(15% 0.00000 89.88)",
+          "oklch(26% 0.00000 89.88)",
+          "oklch(38% 0.00000 89.88)",
+          "oklch(49% 0.00000 89.88)",
+          "oklch(61% 0.00000 89.88)",
+          "oklch(72% 0.00000 89.88)",
+          "oklch(84% 0.00000 89.88)",
+          "oklch(95% 0.00000 89.88)"
+        ]
+      },
+      "desk": {
+        "role": "neutral",
+        "displayName": "Desk",
+        "tonalRamp": [
+          "oklch(15% 0.00761 241.67)",
+          "oklch(26% 0.00761 241.67)",
+          "oklch(38% 0.00761 241.67)",
+          "oklch(49% 0.00761 241.67)",
+          "oklch(61% 0.00761 241.67)",
+          "oklch(72% 0.00761 241.67)",
+          "oklch(84% 0.00761 241.67)",
+          "oklch(95% 0.00761 241.67)"
+        ]
+      },
+      "soft": {
+        "role": "neutral",
+        "displayName": "Soft",
+        "tonalRamp": [
+          "oklch(15% 0.00514 247.88)",
+          "oklch(26% 0.00514 247.88)",
+          "oklch(38% 0.00514 247.88)",
+          "oklch(49% 0.00514 247.88)",
+          "oklch(61% 0.00514 247.88)",
+          "oklch(72% 0.00514 247.88)",
+          "oklch(84% 0.00514 247.88)",
+          "oklch(95% 0.00514 247.88)"
+        ]
+      },
+      "button-hover": {
+        "role": "neutral",
+        "displayName": "Button Hover",
+        "tonalRamp": [
+          "oklch(15% 0.01102 243.65)",
+          "oklch(26% 0.01102 243.65)",
+          "oklch(38% 0.01102 243.65)",
+          "oklch(49% 0.01102 243.65)",
+          "oklch(61% 0.01102 243.65)",
+          "oklch(72% 0.01102 243.65)",
+          "oklch(84% 0.01102 243.65)",
+          "oklch(95% 0.01102 243.65)"
+        ]
+      },
+      "primary-hover": {
+        "role": "primary",
+        "displayName": "Primary Hover",
+        "tonalRamp": [
+          "oklch(15% 0.08254 243.73)",
+          "oklch(26% 0.08254 243.73)",
+          "oklch(38% 0.08254 243.73)",
+          "oklch(49% 0.08254 243.73)",
+          "oklch(61% 0.08254 243.73)",
+          "oklch(72% 0.08254 243.73)",
+          "oklch(84% 0.08254 243.73)",
+          "oklch(95% 0.08254 243.73)"
+        ]
+      },
+      "selected": {
+        "role": "neutral",
+        "displayName": "Selected",
+        "tonalRamp": [
+          "oklch(15% 0.00756 241.66)",
+          "oklch(26% 0.00756 241.66)",
+          "oklch(38% 0.00756 241.66)",
+          "oklch(49% 0.00756 241.66)",
+          "oklch(61% 0.00756 241.66)",
+          "oklch(72% 0.00756 241.66)",
+          "oklch(84% 0.00756 241.66)",
+          "oklch(95% 0.00756 241.66)"
+        ]
+      },
+      "focus": {
+        "role": "primary",
+        "displayName": "Focus",
+        "tonalRamp": [
+          "oklch(15% 0.10934 241.21)",
+          "oklch(26% 0.10934 241.21)",
+          "oklch(38% 0.10934 241.21)",
+          "oklch(49% 0.10934 241.21)",
+          "oklch(61% 0.10934 241.21)",
+          "oklch(72% 0.10934 241.21)",
+          "oklch(84% 0.10934 241.21)",
+          "oklch(95% 0.10934 241.21)"
+        ]
+      },
+      "invalid": {
+        "role": "status",
+        "displayName": "Invalid",
+        "tonalRamp": [
+          "oklch(15% 0.14287 23.86)",
+          "oklch(26% 0.14287 23.86)",
+          "oklch(38% 0.14287 23.86)",
+          "oklch(49% 0.14287 23.86)",
+          "oklch(61% 0.14287 23.86)",
+          "oklch(72% 0.14287 23.86)",
+          "oklch(84% 0.14287 23.86)",
+          "oklch(95% 0.14287 23.86)"
+        ]
+      },
+      "status": {
+        "role": "status",
+        "displayName": "Status",
+        "tonalRamp": [
+          "oklch(15% 0.07805 163.30)",
+          "oklch(26% 0.07805 163.30)",
+          "oklch(38% 0.07805 163.30)",
+          "oklch(49% 0.07805 163.30)",
+          "oklch(61% 0.07805 163.30)",
+          "oklch(72% 0.07805 163.30)",
+          "oklch(84% 0.07805 163.30)",
+          "oklch(95% 0.07805 163.30)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "headline": {
+        "displayName": "App headline",
+        "purpose": "Compact application identity."
+      },
+      "caption": {
+        "displayName": "Caption",
+        "purpose": "Hex values, measurements and data provenance."
+      }
+    },
+    "shadows": [
+      {
+        "name": "sheet",
+        "value": "0 7px 26px #1e3a5012",
+        "purpose": "Map preview sheet"
+      },
+      {
+        "name": "selected-view",
+        "value": "0 2px 5px #243d5210",
+        "purpose": "Selected view button"
+      },
+      {
+        "name": "details",
+        "value": "0 6px 28px #12243622",
+        "purpose": "Data overlay"
+      },
+      {
+        "name": "notice",
+        "value": "0 4px 18px #12243625",
+        "purpose": "Transient notice"
+      }
+    ],
+    "motion": [
+      {
+        "name": "button-hover",
+        "value": "background .16s ease-out",
+        "purpose": "Button hover transition; disabled for reduced motion."
+      },
+      {
+        "name": "loading-pulse",
+        "value": "1.2s ease-in-out infinite",
+        "purpose": "Loading indicator; disabled for reduced motion."
+      },
+      {
+        "name": "full-view",
+        "value": "450ms",
+        "purpose": "Map reset; zero for reduced motion."
+      },
+      {
+        "name": "location-view",
+        "value": "550ms",
+        "purpose": "Map location jump; zero for reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "mobile-max",
+        "value": "700px"
+      },
+      {
+        "name": "compact-gutters-max",
+        "value": "1000px"
+      },
+      {
+        "name": "hide-local-badge-max",
+        "value": "1100px"
+      },
+      {
+        "name": "wide-editor-min",
+        "value": "1600px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Export button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Primary export action; disabled while loading or rendering.",
+      "html": "<button class=\"ds-primary\">导出 PNG<svg viewBox=\"0 0 20 20\" aria-hidden=\"true\"><path d=\"M10 3v10m-4-4 4 4 4-4M4 13v4h12v-4\"/></svg></button>",
+      "css": ".ds-primary{font-family:-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif;font-size:14px;min-height:36px;border:1px solid var(--border,#dce3e9);border-radius:7px;padding:7px 12px;cursor:pointer;transition:background .16s ease-out;display:flex;align-items:center;gap:16px;background:var(--accent,#245e86);border-color:var(--accent,#245e86);color:white}.ds-primary svg{width:19px;height:19px;stroke:currentColor;fill:none;stroke-width:1.5}.ds-primary:hover{background:#194d72}.ds-primary:focus-visible{outline:3px solid #2d7caf;outline-offset:3px;}.ds-primary:disabled{opacity:.5;cursor:wait}@media(prefers-reduced-motion:reduce){button{transition:none;animation:none}}"
+    },
+    {
+      "name": "Default button",
+      "kind": "button",
+      "refersTo": "button-default",
+      "description": "Save or load a palette file.",
+      "html": "<button class=\"ds-default\">保存配色</button>",
+      "css": ".ds-default{font-family:-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif;font-size:14px;min-height:36px;border:1px solid var(--border,#dce3e9);border-radius:7px;padding:7px 12px;cursor:pointer;transition:background .16s ease-out;background:var(--surface,#fff);color:var(--ink,#21364a);font-size:12px}.ds-default:hover{background:#e9f0f6}.ds-default:focus-visible{outline:3px solid #2d7caf;outline-offset:3px;}.ds-default:disabled{opacity:.5;cursor:wait}@media(prefers-reduced-motion:reduce){button{transition:none;animation:none}}"
+    },
+    {
+      "name": "Text action",
+      "kind": "button",
+      "refersTo": "button-text",
+      "description": "Low-emphasis reset and details action.",
+      "html": "<button class=\"ds-text\">恢复默认</button>",
+      "css": ".ds-text{font-family:-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif;font-size:14px;min-height:36px;border:1px solid var(--border,#dce3e9);border-radius:7px;padding:7px 12px;cursor:pointer;transition:background .16s ease-out;min-height:32px;border:0;background:none;color:var(--accent,#245e86);padding:5px 0;font-size:12px}.ds-text:hover{text-decoration:underline;text-underline-offset:4px}.ds-text:focus-visible{outline:3px solid #2d7caf;outline-offset:3px;}@media(prefers-reduced-motion:reduce){button{transition:none;animation:none}}"
+    },
+    {
+      "name": "Hex color field",
+      "kind": "input",
+      "refersTo": "input-hex",
+      "description": "Editable six-digit color, with native validation.",
+      "html": "<input class=\"ds-hex\" aria-label=\"背景十六进制颜色\" value=\"#f5f7f8\" pattern=\"#[0-9A-Fa-f]{6}\" maxlength=\"7\" spellcheck=\"false\">",
+      "css": ".ds-hex{font-family:-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif;font-size:14px;width:72px;border:1px solid transparent;color:var(--muted,#526779);font-size:11px;text-transform:uppercase;font-variant-numeric:tabular-nums;background:transparent;padding:5px 2px;border-radius:3px;caret-color:var(--accent,#245e86)}.ds-hex:focus-visible{outline:3px solid #2d7caf;outline-offset:3px;}.ds-hex:focus{border-color:var(--border,#dce3e9);outline:2px solid #a8cde5}.ds-hex:invalid{border-color:#a53939}"
+    },
+    {
+      "name": "Preset tile",
+      "kind": "custom",
+      "refersTo": "preset-selected",
+      "description": "Four-band palette preview with explicit selected state.",
+      "html": "<button class=\"ds-preset\" aria-pressed=\"true\" aria-label=\"使用清绘配色\"><span class=\"ds-swatch\"><i style=\"background:#f5f7f8\"></i><i style=\"background:#bad8e7\"></i><i style=\"background:#c26c42\"></i><i style=\"background:#98a8a5\"></i></span><span>清绘</span></button>",
+      "css": ".ds-preset{font-family:-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif;font-size:14px;min-height:36px;border:1px solid var(--border,#dce3e9);border-radius:7px;padding:7px 12px;cursor:pointer;transition:background .16s ease-out;padding:4px;background:white;border-color:transparent;min-width:0;color:var(--ink,#21364a)}.ds-preset:hover{background:#e9f0f6}.ds-preset[aria-pressed=\"true\"]{border-color:var(--accent,#245e86);background:#f1f6fa}.ds-preset:focus-visible{outline:3px solid #2d7caf;outline-offset:3px;}.ds-preset>span{font-size:11px}.ds-swatch{height:28px;border-radius:3px;display:flex;overflow:hidden;margin-bottom:6px}.ds-swatch i{width:25%;height:100%}@media(prefers-reduced-motion:reduce){button{transition:none;animation:none}}"
+    },
+    {
+      "name": "View navigation",
+      "kind": "nav",
+      "refersTo": "button-default",
+      "description": "Selected white tab within a transparent view toolbar.",
+      "html": "<nav class=\"ds-views\" aria-label=\"地图视图\"><button class=\"ds-selected\">全范围</button><button>人民广场</button><button>滴水湖</button></nav>",
+      "css": ".ds-views{display:flex;gap:4px;background:var(--desk,#e9eef2)}.ds-views button{font-family:-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif;font-size:14px;min-height:36px;border:1px solid var(--border,#dce3e9);border-radius:7px;padding:7px 12px;cursor:pointer;transition:background .16s ease-out;border:0;background:transparent;font-size:12px;padding:7px 14px;color:var(--ink,#21364a)}.ds-views button.ds-selected{background:white;box-shadow:0 2px 5px #243d5210}.ds-views button:focus-visible{outline:3px solid #2d7caf;outline-offset:3px;}@media(prefers-reduced-motion:reduce){button{transition:none;animation:none}}"
+    },
+    {
+      "name": "Data details panel",
+      "kind": "card",
+      "refersTo": "data-details",
+      "description": "Raised data provenance and size panel.",
+      "html": "<section class=\"ds-details\"><h3>数据与下载量</h3><p>源数据包只需用于下载和重建；日常调色不需联网。</p></section>",
+      "css": ".ds-details{font-family:-apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif;font-size:14px;background:white;padding:22px 25px;box-shadow:0 6px 28px #12243622;border-radius:12px;font-size:12px;line-height:1.8;color:var(--ink,#21364a);overflow:auto}.ds-details h3{font-size:15px;font-weight:650;margin:0 0 8px}.ds-details p{margin:0}"
+    }
+  ],
+  "narrative": {
+    "northStar": "地图调色工作台",
+    "overview": "A local map workbench extending the existing blue-gray map-tool interface. White editing surfaces and restrained blue controls keep attention on editable road geometry, water and land. Compact system typography supports repeated adjustments and offline use.",
+    "keyCharacteristics": [
+      "Map-led workspace with quiet white and blue-gray chrome.",
+      "Compact native controls with visible focus and numerical values.",
+      "Editable map palettes independent of the interface palette."
+    ],
+    "rules": [
+      {
+        "name": "The Independent Palette Rule",
+        "body": "Interface colors remain stable when users change map themes. Map colors are document content, sourced from `PRESETS`, `SURFACE_PALETTES` and `vendor/maptoposter/themes.js`, not global UI tokens.",
+        "section": "colors"
+      }
+    ],
+    "dos": [
+      "Do preserve the blue-gray interface when map palettes change.",
+      "Do keep layer color, visibility and width or opacity controls together.",
+      "Do retain native inputs, visible keyboard focus and reduced-motion behavior.",
+      "Do keep the 16:10 export restricted to map pixels at the selected native resolution."
+    ],
+    "donts": [
+      "Don't add poster text, markers, frames or padding to exported maps.",
+      "Don't treat MapToPoster map colors as interface tokens.",
+      "Don't replace the system font or introduce decorative gradients into the editing chrome."
+    ]
+  }
+}

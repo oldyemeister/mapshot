@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f2f5f8"><title>Mapshot · 上海路网调色台</title><link rel="stylesheet" href="vendor/maplibre-gl.css"><link rel="stylesheet" href="style.css"><script defer src="vendor/maplibre-gl.js"></script><script defer src="vendor/maptoposter/themes.js"></script><script defer src="app.js"></script></head>
+<body>
+<header class="app-header"><div class="brand"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M4 25 13 5l6 22 9-20M3 15l26 3"/></svg><h1>上海<span>路网调色台</span></h1></div><div class="header-actions"><span class="local-badge"><i></i> 上海 · 试用版</span><label class="export-resolution"><span>壁纸 · 16:10</span><select id="export-size" aria-label="导出图片宽度"><option value="1920">1920 × 1200</option><option value="3840" selected>3840 × 2400</option><option value="7680">7680 × 4800</option></select></label><button id="export-png" class="primary" disabled>导出 PNG<svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 3v10m-4-4 4 4 4-4M4 13v4h12v-4"/></svg></button></div></header>
+<main>
+<aside class="sidebar" aria-label="地图样式编辑器">
+<p class="trial-guide">选一组配色，调整图层，再导出你的地图。配色只保存在此浏览器。</p><div class="sidebar-top"><h2>地图样式</h2><button id="reset-style" class="text-button">恢复默认</button></div>
+<section class="presets"><h3>从一组配色开始</h3><div class="preset-options" id="presets"></div><div class="theme-library-heading"><span>MapToPoster 主题</span><a href="https://github.com/originalankur/maptoposter/tree/main/themes" target="_blank" rel="noopener">来源</a></div><div class="preset-options library-presets" id="library-presets"></div><p id="theme-description" class="theme-description"></p></section>
+<section class="base-section"><h3>底色与水系</h3><div id="base-controls"></div><label class="detail-water-toggle"><input type="checkbox" id="detail-water" checked>使用精细水域轮廓</label></section><section class="surfaces-section"><h3>建筑与土地用途</h3><p class="section-hint">颜色 · 显示 · 不透明度</p><div id="surface-controls"></div></section>
+<section class="surfaces-section aviation-section"><h3>机场设施</h3><p class="section-hint">颜色 · 显示 · 不透明度</p><div id="aviation-controls"></div><p class="section-hint">跑道与滑行道随地图缩放；未标注宽度时使用显示默认值。</p></section>
+<section class="roads-section"><div class="section-heading"><h3>道路图层</h3><button id="toggle-roads" class="text-button">全部隐藏</button></div><p class="section-hint">颜色 · 显示 · 线宽（随缩放变化）</p><div id="road-controls"></div></section>
+<section class="view-options"><label><input type="checkbox" id="show-labels">预览地点标记（不导出）</label><p>道路等级依据 OSM 分类；匝道跟随所属等级。</p></section>
+<footer class="sidebar-footer"><div class="save-actions"><button id="save-style">保存配色</button><button id="load-style">载入配色</button><input id="style-file" type="file" accept="application/json,.json" hidden></div><p id="save-status">调整会自动保存在此浏览器</p></footer>
+</aside>
+<section class="workspace" aria-label="地图预览">
+<nav class="view-toolbar" aria-label="地图视图"><div class="view-links"><button id="full-view" class="selected">全范围</button><button id="city-view">人民广场</button><button id="lake-view">滴水湖</button></div><span class="gesture-hint">拖动平移 · 滚轮缩放</span></nav>
+<div class="paper-area"><div class="map-sheet"><div class="map-title"><div><strong>上海路网</strong><span>SHANGHAI / ROAD NETWORK</span></div><span class="north">N<svg viewBox="0 0 18 28" aria-hidden="true"><path d="m9 3 6 19-6-4-6 4Z"/></svg></span></div><div class="map-frame"><div id="map" role="region" aria-label="可平移缩放的上海路网地图"></div><div class="load-state" id="load-state" role="status"><div class="loading-dot"></div><strong id="load-title">正在读取上海地图</strong><progress id="load-progress" max="100" aria-label="地图数据读取进度"></progress><span id="load-message">首次打开需读取约 35 MB 地图数据</span></div></div><div class="map-caption"><span>人民广场为中心 · 青浦西部至临港</span><span id="map-scale-text">WGS 84</span></div></div></div>
+<div class="data-strip"><div><span class="status-dot"></span><span id="data-summary">正在读取数据清单…</span></div><button id="data-toggle" aria-expanded="false" aria-controls="data-details" class="text-button">数据与下载量</button></div>
+<div id="data-details" class="data-details" hidden></div>
+</section>
+</main><noscript>Mapshot 需要启用 JavaScript 才能显示地图。</noscript><div id="notice" role="status" class="notice" hidden></div>
+</body></html>

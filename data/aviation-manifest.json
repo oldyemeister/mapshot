@@ -1,0 +1,32 @@
+{
+  "source": "https://overpass.private.coffee/api/interpreter",
+  "osmTimestamp": "2026-05-31T22:37:44Z",
+  "bbox": [
+    120.6143053902,
+    30.77,
+    122.3330946098,
+    31.6885676823
+  ],
+  "featureCount": 1456,
+  "groups": {
+    "apron": 63,
+    "runway": 23,
+    "taxiway": 1370
+  },
+  "geometryTypes": {
+    "MultiPolygon": 76,
+    "LineString": 1380
+  },
+  "linesCoveredByAreas": 7,
+  "compressedBytes": 141160,
+  "sourceBytes": 1374247,
+  "sourceSHA256": "86d07b484ab58529eee4efaafdb29f45bd596df066df1aea46e62771fe74d3c7",
+  "attribution": "© OpenStreetMap contributors / ODbL 1.0",
+  "widthDefaultsMeters": {
+    "runway": 45,
+    "taxiway": 23
+  },
+  "notes": [
+    "Original polygons preserve holes. Linear features use tagged width where available; absent or invalid widths use display defaults, not surveyed dimensions."
+  ]
+}

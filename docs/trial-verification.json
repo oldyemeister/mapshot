@@ -1,0 +1,38 @@
+{
+  "environment": "Local Chromium, software WebGL; mobile viewport emulation, not physical device",
+  "base": "http://127.0.0.1:8107/",
+  "desktop": {
+    "metrics": {
+      "startedAt": 63.5,
+      "geometryBytes": 35271820,
+      "readyMs": 13460
+    },
+    "jsHeapBytes": 770427431,
+    "overflow": false,
+    "export": {
+      "width": 3840,
+      "height": 2400,
+      "bytes": 11835538,
+      "milliseconds": 1274
+    }
+  },
+  "mobile": {
+    "metrics": {
+      "startedAt": 45.299999952316284,
+      "geometryBytes": 35271820,
+      "readyMs": 9915
+    },
+    "overflow": false,
+    "defaultExport": "1920",
+    "exportBytes": 3656827
+  },
+  "errors": [],
+  "remote": [],
+  "failureRecovery": "503 shows retry and disables export",
+  "confirmationRun": {
+    "status": "failed",
+    "stage": "desktop reload and style redraw",
+    "error": "Chromium page Target crashed",
+    "cause": "Not established; software WebGL test environment, full city data; real-device investigation pending"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "repository": "https://github.com/originalankur/maptoposter",
+  "path": "themes",
+  "retrievedDate": "2026-10-28",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2026 Ankur Gupta",
+  "files": [
+    {
+      "path": "themes/noir.json",
+      "gitBlobSha": "9ea47e65861c718a3dfa2ba3bfff2ebfef1c9c56",
+      "sha256": "b332cc24e4d5ca688189ea39c4bc72e166f8a4a49c1c6ef1385c3fdd3b21fdcd"
+    },
+    {
+      "path": "themes/midnight_blue.json",
+      "gitBlobSha": "e63030c9b59b23f605370b77fd9b7b9e3ed991ca",
+      "sha256": "0ae84e58409060c3aa5cfe3d6ab096b91a046328239a6202af22d7e5b8dbfc03"
+    },
+    {
+      "path": "themes/japanese_ink.json",
+      "gitBlobSha": "cc3b295d504ace2f59153acd9e338f7513572544",
+      "sha256": "d37366358e03d450be98cf21986bfca2b2bbb46cc71df82b197e751beffc132f"
+    },
+    {
+      "path": "themes/copper_patina.json",
+      "gitBlobSha": "890e81c076c91ef2a5f18c66866c3d9805fb5970",
+      "sha256": "e64654a8ce518db22357924b944da7bec21d40795388207181553859f3e7bf43"
+    },
+    {
+      "path": "themes/pastel_dream.json",
+      "gitBlobSha": "3174aac371cf8b6e0b6ca7da1aea66219fba6673",
+      "sha256": "bb7b570917fcf7db38716629efb48ae7fc34554b58946e3ceb39ecd9e5856b41"
+    },
+    {
+      "path": "themes/terracotta.json",
+      "gitBlobSha": "086740fb9fbe300232a66af7c4798d684dbbe418",
+      "sha256": "da3a1c0aa88475c167ee864873d961f83b4f1aee517e979f5c6fcfc6b7e3ce81"
+    }
+  ]
+}

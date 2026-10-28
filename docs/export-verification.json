@@ -1,0 +1,41 @@
+[
+  {
+    "width": 3840,
+    "height": 2400,
+    "bytes": 11828442,
+    "file": "/Users/jacky/Documents/ChatGPT/Map/shanghai_road_studio/上海路网-4K.png"
+  },
+  {
+    "width": 7680,
+    "height": 4800,
+    "bytes": 32249496,
+    "file": "/Users/jacky/Documents/ChatGPT/Map/shanghai_road_studio/上海路网-8K.png"
+  },
+  {
+    "uniformExport": {
+      "bad": 0,
+      "pixels": 2304000
+    }
+  },
+  {
+    "geo": {
+      "center": {
+        "lng": 121.47370000000001,
+        "lat": 31.230400000000017
+      },
+      "bounds": [
+        [
+          120.61430539019995,
+          30.770000000027807
+        ],
+        [
+          122.33309460979984,
+          31.688567682273472
+        ]
+      ],
+      "features": 55051
+    },
+    "errors": [],
+    "remote": []
+  }
+]

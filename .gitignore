@@ -1,0 +1,27 @@
+# Generated environments and Python caches
+.venv/
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.*
+!.env.example
+
+# Large source data and generated runtime geometries (distributed separately)
+data/raw/
+data/tiles/
+data/*.geojson.gz
+
+# Runtime packages, exported maps, local review captures
+dist/
+*.zip
+*.tmp
+*.png
+.impeccable/review/
+docs/trial-style-check.json
+
+# Logs and local database files, if added later
+*.log
+*.sqlite
+*.sqlite3

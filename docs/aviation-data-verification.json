@@ -1,0 +1,15 @@
+{
+  "geometryValid": true,
+  "airports": {
+    "hongqiao": {
+      "apron": 4,
+      "runway": 2,
+      "taxiway": 304
+    },
+    "pudong": {
+      "apron": 15,
+      "runway": 10,
+      "taxiway": 918
+    }
+  }
+}
